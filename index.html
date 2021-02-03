@@ -6,6 +6,7 @@
         <title>movie card</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -13,7 +14,82 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-         
+        <article class="movie-card">
+            <header class="movie-card__header">
+                <div>
+                    <h1 class="movie-title">Star Wars: The Last Jedi</h1>
+                    <h3 class="movie-genre">Action & Adventure</h3>
+                </div>
+
+                <div class="movie-score">
+                    <span class="movie-score__score">7.4 </span>
+                    <span class="movie-score__total">/ 10</span>
+                </div>
+            </header>
+
+            <section class="movie-card__info">
+                <div class="info__img-container">
+                    <img class="info__img" src="images/movie-poster.jpg" alt=""/>
+                </div>
+
+                <div>
+                    <div class="about-movie">
+                        <h2>About the Movie</h2>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem laborum quibusdam dolorum tempore optio iste voluptates beatae, facere ut eveniet, ab eligendi quaerat quisquam quod magni veniam provident consectetur!
+                        </p>
+                    </div>
+
+                    <div class="info__people-container">
+                        <div class="info__people">
+                            <ul class="actors people">
+                                <li><h4 class="person__heading">Actors</h4></li>
+                                <li class="actor person">Oscar Isaac</li>
+                                <li class="actor person">Mark Hamill</li>
+                                <li class="actor person">Daisy Ridley</li>
+                                <li class="actor person">John Boyega</li>
+                                <li class="actor person">Kelly Marie Tran</li>
+                            </ul>
+
+                            <div>
+                                <ul class="directors people">
+                                    <li><h4 class="person__heading">Directors</h4></li>
+                                    <li class="director person">Oscar Isaac</li>
+                                </ul>
+    
+                                <ul class="screenwriters people">
+                                    <li><h4 class="person__heading">Screenwriter</h4></li>
+                                    <li class="screenwritter person">Rian Johnson</li>
+                                </ul>
+                            </div>
+
+                            <ul class="producers people">
+                                <li><h4 class="person__heading">Producers</h4></li>
+                                <li class="producer person">Kathleen Kennedy</li>
+                                <li class="producer person">Ram Bergman</li>
+                            </ul>
+                            
+                        </div>
+                        <a class="more-people-link" href="#">More</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="movie-card__footer">
+                <section class="footer__buy-section">
+                    <h5 class="footer__price">$19.00</h5>
+                    <button class="buy-btn">BUY</button>
+                </section>
+
+                <button class="watch-trailer-btn">
+                    <span class="watch-trailer-btn__text">WATCH TRAILER</span>
+                    <div class="watch-trailer-icon">
+                        <i class="fa fa-play"></i>
+                        <!-- <i class="fa fa-play-circle"></i> -->
+                    </div>
+                </button>
+            </footer>
+        </article> 
               
     </body>
 </html>
